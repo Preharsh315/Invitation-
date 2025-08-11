@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>T-Series StageWorks Academy Invitation</title>
+  <link rel="icon" href="https://www.tseriesstageworks.com/resources/assets/frontend/img/logo.png" type="image/png">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      color: #333;
+      margin: 0;
+      padding: 20px;
+      background: #fff;
+    }
+    .container {
+      max-width: 600px;
+      margin: auto;
+    }
+    .header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 10px;
+    }
+    .header img {
+      width: 80px;
+      height: auto;
+      border-radius: 8px;
+    }
+    .header-text {
+      color: #b22222;
+      font-weight: bold;
+      font-size: 20px;
+    }
+    .subheader {
+      font-size: 14px;
+      color: #777;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 24px;
+      margin-bottom: 15px;
+    }
+    p {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+    .bold {
+      font-weight: bold;
+    }
+    .btn {
+      background-color: #d32f2f;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      font-weight: bold;
+      cursor: pointer;
+      display: inline-block;
+      margin-top: 20px;
+      text-decoration: none;
+    }
+    .btn:hover {
+      background-color: #b71c1c;
+    }
+    .footer {
+      font-size: 12px;
+      color: #777;
+      margin-top: 40px;
+      border-top: 1px solid #eee;
+      padding-top: 10px;
+    }
+  </style>
+  <script>
+    function confirmAttendance() {
+      alert("Thank you, Prateek Singh Vimal! Your attendance has been confirmed.");
+      window.location.href = "identity-card.html";
+    }
+  </script>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <img src="https://www.tseriesstageworks.com/resources/assets/frontend/img/logo.png" alt="T-Series StageWorks Academy logo" />
+      <div>
+        <div class="header-text">T-Series StageWorks Academy</div>
+        <div class="subheader">Official Invitation — Performing Arts Workshop</div>
+      </div>
+    </div>
+
+    <h1>You’re Invited — Special Workshop</h1>
+
+    <p>Dear <span class="bold">Prateek Singh Vimal</span>,</p>
+    <p>We are pleased to invite you to the <span class="bold">T-Series StageWorks Academy — Mumbai Workshop</span>. Join us for a hands-on session covering voice training, stage presence, and audition tips.</p>
+
+    <p><span class="bold">Date:</span> 21 August<br />
+       <span class="bold">Check-in:</span> 19 August — 08:00 AM (arrival & registration)<br />
+       <span class="bold">Program Start:</span> 11:00 AM<br />
+       <span class="bold">Venue:</span> Mumbai (details will be shared upon confirmation)</p>
+
+    <button class="btn" onclick="confirmAttendance()">Confirm Attendance</button>
+
+    <p>Note: Please bring a valid photo ID and your headshot. Light refreshments will be provided.</p>
+
+    <div class="footer">
+      T-Series StageWorks Academy • Film City, Noida (Representative Office) • For queries: info@tseriesstageworks.com
+    </div>
+  </div>
+</body>
+</html>
